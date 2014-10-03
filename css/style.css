@@ -1,0 +1,23 @@
+/* Styles */
+
+.top {
+	text-align: center;
+	background-color: #FC6938;
+	height: 200px;
+	vertical-align: middle;
+}
+.mid {
+	text-align: center;
+	background-color: #38272E;
+	padding-bottom: 50px;
+}
+.btn-blu {
+	background-color: #414373;
+}
+.white {
+	color: #FFFFFF;
+}
+.select {
+	width: 100px;
+	margin: auto;
+}
