@@ -2,13 +2,13 @@
 
 .top {
 	text-align: center;
-	background-color: #FC6938;
+	background-color: #94D9EE;
 	height: 200px;
 	vertical-align: middle;
 }
 .mid {
 	text-align: center;
-	background-color: #38272E;
+	background-color: #A8A8B0;
 	padding-bottom: 50px;
 }
 .btn-blu {
@@ -19,7 +19,7 @@
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    background-color: #FC6938;
+    background-color: #94D9EE;
     color: #FFFFFF;
 }
 .btn-blu a {
