@@ -40,6 +40,7 @@ a {
 }
 .bot {
 	text-align: center;
+	margin-bottom: 100px;
 }
 .btn-blu {
 	background-color: #738582;
@@ -78,6 +79,10 @@ a {
 	float: left;
 	margin-top: 10px;
 }
+#reset {
+	display: block;
+	margin-top: 50px;
+}
 .glyphicon-align-center {
 	padding-left: 5px;
 }
@@ -95,7 +100,7 @@ a {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
