@@ -1,15 +1,45 @@
 /* Styles */
-
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Inconsolata';
+}
+a {
+	color: #52CC29;
+}
+.navbar > .container .navbar-brand {
+	margin-left: -150px;
+}
+.padding {
+	padding-top: 51px;
+}
+.down {
+	padding-top: 90px;
+}
 .top {
 	text-align: center;
-	background-color: #94D9EE;
 	height: 200px;
 	vertical-align: middle;
+	color: #FFFFFF;
+	background-image: url('../terminal.png');
+	height: 300px;
+}
+.terminal {
+
+		position: absolute;
 }
 .mid {
 	text-align: center;
-	background-color: #A8A8B0;
+	background-color: #232323;
 	padding-bottom: 50px;
+}
+.bot {
+	text-align: center;
 }
 .btn-blu {
 	background-color: #738582;
@@ -19,22 +49,19 @@
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    background-color: #94D9EE;
+  	-webkit-transition-property: transform;
+ 	transition-property: transform;
+ 	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+    -webkit-transform: scale(1.1);
+  	transform: scale(1.1);
+    background-color: #52CC29;
     color: #FFFFFF;
 }
 .btn-blu a {
 	color: #38272E;
 	text-decoration: none;
 }
-/*.btn-blu a:hover {
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-	color: #FFFFFF;
-	text-decoration: none;
-	background-color: 
-}*/
 .white {
 	color: #FFFFFF;
 }
@@ -44,7 +71,44 @@
 }
 .right {
 	float: right;
+	margin-top: 10px;
 }
 .left {
 	float: left;
+	margin-top: 10px;
+}
+.glyphicon-align-center {
+	padding-left: 5px;
+}
+.glyphicon-arrow-down {
+	font-size: 45px;
+	color: #FFFFFF
+}
+.pic {
+	padding-left: 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background-color: #000000;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+  font-size: 16px;
 }
