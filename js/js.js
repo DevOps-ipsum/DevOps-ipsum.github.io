@@ -15,12 +15,17 @@
 		var p = 0;
 		 while ( p < numPar) {
 
+
+		 			var newString = '';
 					var i = 0;
 					while ( i < 100 ) {
 						opsString = opsArray[Math.floor(Math.random() * opsArray.length)];
 	
-						var newString = newString + ' ' + opsString;
+						newString = newString + ' ' + opsString;
 			    		// This block will be executed 100 times.
+			    		if ( i % 10 == 0) {
+			    			newString = newString + '.' + ' ';
+			    		}
 			    		i++; // Increment i
 					}
 				   var newNewString = '<p>' + newString + '</p>';
