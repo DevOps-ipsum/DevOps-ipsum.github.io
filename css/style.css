@@ -72,6 +72,7 @@ a {
 .right {
 	float: right;
 	margin-top: 10px;
+	width: 100px;
 }
 .left {
 	float: left;
@@ -87,9 +88,14 @@ a {
 .pic {
 	padding-left: 10px;
 }
+#random-ipsum {
+	margin: 0 30px 0 30px;
+	text-align: left;
+	height: auto;
+}
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
