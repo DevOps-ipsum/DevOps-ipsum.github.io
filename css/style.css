@@ -45,7 +45,6 @@ a {
 }
 .btn-blu {
 	background-color: #738582;
-	border-color: #00FF00;
 }
 .btn-blu:hover {
 	-moz-transition: all .2s ease-in;
@@ -112,7 +111,9 @@ a {
   height: 160px;
   background-color: #000000;
 }
-
+::selection {
+  background: #FF3399; /* WebKit/Blink Browsers */
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
